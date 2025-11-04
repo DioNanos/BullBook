@@ -1,0 +1,29 @@
+# Environment variables (SENSITIVE - credentials!)
+backend/.env
+docs/credentials.md
+
+# PM2 Logs
+backend/logs/*.log
+
+# Node modules
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Frontend build (can be regenerated)
+# frontend/dist/
+
+# Temporary files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Test output
+*.log
+npm-debug.log*
